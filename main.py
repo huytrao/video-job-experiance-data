@@ -88,7 +88,7 @@ elif software_engineer_button:
     
 
 # Chức năng xử lý tệp tin được kéo và thả
-uploaded_file = st.file_uploader("Kéo và thả file mp4 vào đây")
+uploaded_file = st.file_uploader("Bạn muốn đóng góp. Kéo và thả file mp4 vào đây")
 
 if uploaded_file is not None:
         # Phần up video
