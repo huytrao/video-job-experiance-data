@@ -1,0 +1,105 @@
+body {
+  overflow: hidden;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://png.pngtree.com/background/20211217/original/pngtree-geometric-pattern-white-gold-minimalist-creative-background-picture-image_1575961.jpg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+button {
+  position: relative;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+button:nth-child(2) {
+  background-color: #9600cc;
+}
+
+.softwareicon {
+  position: absolute;
+  top: 175%;
+  right: 35%;
+  transform: translateY(-50%);
+  width: 82px;
+  height: 82px;
+  background: url('https://cdn.iconscout.com/icon/free/png-512/free-software-engineer-3838020-3204417.png?f=webp&w=256') no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 0px;
+  z-index: 2;
+}
+
+.bricklayericon {
+  position: absolute;
+  top: 175%;
+  right: 35%;
+  transform: translateY(-50%);
+  width: 82px;
+  height: 82px;
+  background: url('https://cdn1.vectorstock.com/i/1000x1000/82/20/bricklayer-black-concept-icon-vector-23238220.jpg') no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+#video-iframe {
+  display: none;
+}
+/* Thêm định dạng cho nút "End" vào file CSS */
+#end-button {
+  position: relative;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.endicon {
+  position: absolute;
+  top: 175%;
+  right: 35%;
+  transform: translateY(-50%);
+  width: 82px;
+  height: 82px;
+  background: url('https://cdn.iconscout.com/icon/free/png-512/google-471353.png') no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 0px;
+  z-index: 2;
+}
